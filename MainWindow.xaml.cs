@@ -16,16 +16,13 @@ using System.Windows.Shapes;
 
 namespace VisualMkLink
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
-
+        
         private String GetFolder()
         {
             OpenFileDialog dlg = new OpenFileDialog();
@@ -39,7 +36,6 @@ namespace VisualMkLink
 
             return "";
         }
-
 
         private void LinkOpenButton_Click(object sender, RoutedEventArgs e)
         {

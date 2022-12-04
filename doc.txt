@@ -1,0 +1,32 @@
+System.Diagnostics.Process process = new System.Diagnostics.Process();
+System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+startInfo.FileName = "cmd.exe";
+startInfo.Arguments = "/C copy /b Image1.jpg + Archive.rar Image2.jpg";
+startInfo.Verb = "runas";
+process.StartInfo = startInfo;
+process.Start();
+
+FolderBrowserDialog
+
+ren   -Copy
+
+[DllImport("kernel32.dll")]
+static extern bool CreateSymbolicLink(
+string lpSymlinkFileName, string lpTargetFileName, SymbolicLink dwFlags);
+
+        enum SymbolicLink
+        {
+            File = 0,
+            Directory = 1
+        }
+
+TypeRetour NomFunc(Type param1, type param1);
+
+bool Directory.Move(sourceDirectory, destinationDirectory);
+
+boolean = true, false; 
+int =- 1, 5 843957, 4839.3
+float = 0.435, 1243242,034, 0, 1
+
+parent = papa, maman.
